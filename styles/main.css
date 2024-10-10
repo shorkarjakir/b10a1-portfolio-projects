@@ -174,3 +174,48 @@ border: 1px solid rgb(13, 19, 33);
 opacity: 0.7;
 padding: 8px 16px 8px 16px;
 }
+
+.Inspiration-section{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin-top: 40px;
+text-align: center;
+}
+
+.Inspiration-section .Inspiration-heading{
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 24px;
+font-weight: 800;
+line-height: 37px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.Inspiration-section .Inspiration-text{
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 13px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.7;
+}
+
+.Inspiration-section .embeeded-section{
+box-sizing: border-box;
+border: 1px solid rgba(13, 19, 33, 0.2);
+border-radius: 16px;
+padding: 20px;
+margin-top: 20px;         
+}
+
+.Inspiration-section .embeeded-section .main-iframe{
+box-sizing: border-box;
+border: 1px solid rgba(13, 19, 33, 0.2);
+border-radius: 16px;
+
+}
