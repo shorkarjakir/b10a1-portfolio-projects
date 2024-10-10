@@ -300,10 +300,75 @@ align-items: flex-start;
 .lan-button{
 color: rgb(13, 19, 33);
 font-family: Azeret Mono;
-font-size: 16px;
+font-size: 13px;
 font-weight: 700;
 line-height: 19px;
 letter-spacing: 0%;
 text-align: left;
 text-decoration-line: underline;
+}
+
+.support-section{
+background-image: linear-gradient(0deg, rgb(16, 16, 16) -19.5%,
+rgba(16, 16, 16, 0)100%), url("/assets/handshake.jpg");
+ display: flex;
+ flex-direction: column;
+ text-align: center;
+ justify-content: center;
+ justify-items: center;
+ background-size: cover;
+ background-position: center;
+ height: 200px;
+ width: 75%;
+ border-radius: 16px;
+background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),url(Email);
+padding: 40px 30px 40px 30px;
+margin: 0 auto;
+margin-top: 30px;
+gap: 10px;
+}
+
+.support-section .support-heading{
+color: rgb(255, 255, 255);
+font-family: Azeret Mono;
+font-size: 24px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.support-section .support-text{
+color: rgb(255, 255, 255);
+font-family: Azeret Mono;
+font-size: 13px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.7;
+}
+
+.support-section #input-field{
+box-sizing: border-box;
+border: 1px solid rgba(13, 19, 33, 0.15);
+border-radius: 8px;
+background: rgb(255, 255, 255);
+padding: 15px 60px 15px 60px;
+margin-bottom: 16px;
+color: rgba(13, 19, 33, 0.4);
+font-family: Azeret Mono;
+font-size: 13px;
+font-weight: 400;
+line-height: 15px;
+letter-spacing: 0%;
+text-align: right;
+}
+
+.support-section #submit-btn{
+border-radius: 8px;
+background: rgb(255, 255, 255);
+padding: 15px 20px 15px 20px;
+border: none;
+margin-left: 8px;
 }
