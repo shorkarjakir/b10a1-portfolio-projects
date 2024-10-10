@@ -372,3 +372,28 @@ padding: 15px 20px 15px 20px;
 border: none;
 margin-left: 8px;
 }
+
+footer{
+ display: flex;
+ justify-content: space-evenly;
+ gap: 450px;
+ margin-top: 20px;
+}
+
+footer .footer-text{
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 600;
+line-height: 23px;
+letter-spacing: 0%;
+text-align: center;
+}
+.social-container{
+ display: flex;
+ gap: 15px;
+}
+.social-container li{
+ list-style-type: none;
+ 
+}
